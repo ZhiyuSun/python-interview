@@ -30,3 +30,10 @@ date/datetime/timestamp
 - MyISAM不支持事务，InnoDB支持事务
 - MyISAM不支持外键，InnoDB支持外键
 - MyISAM只支持表锁，InnoDB支持行锁和表锁
+
+
+## 参考资料
+
+《『MySQL』深入理解事务的来龙去脉》
+
+https://juejin.im/post/5cbc049de51d456e7b372089
