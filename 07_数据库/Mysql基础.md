@@ -32,6 +32,15 @@ date/datetime/timestamp
 - MyISAM只支持表锁，InnoDB支持行锁和表锁
 
 
+2021.01.05更新
+- MyISAM是非事务安全的，而InnoDB是事务安全的
+- MyISAM锁的粒度是表级的，而InnoDB支持行级锁
+- MyISAM支持全文类型索引，而InnoDB不支持全文索引
+- MyISAM相对简单，效率上要优于InnoDB，小型应用可以考虑使用MyISAM
+- MyISAM表保存成文件形式，跨平台使用更加方便
+
+参考资料：https://juejin.cn/post/6903101301429796871
+
 ## 参考资料
 
 《『MySQL』深入理解事务的来龙去脉》
